@@ -1,3 +1,3 @@
-# IGP_n_BGP
+# IGP & BGP
 
 (to be continued...)
