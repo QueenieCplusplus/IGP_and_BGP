@@ -156,7 +156,8 @@ IGRP Route Entry Format is like this
               +------------+--------------+-----------+
               |   Load     |         Hop Count        | 
               +------------+--------------------------+
-               
+ 
+ Destination == Advertised Network Prefix
 
 # Advertisable Addr Type
 
