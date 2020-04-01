@@ -1,7 +1,7 @@
 # IGP & BGP
 
 ------------------
-# IGRP then EIGRP
+# IGRP ((( EIGRP )))
 
 IGRP, Interior Gateway Routing Protocol, like RIP, it is a classful, distance_vector routing tool.
 
@@ -183,16 +183,12 @@ Typically provides access to Internet, or another Network.The traffic sent to un
 
 The Router that advertises exterior networks can be used as the Default Router by the routers that accepts its routing updates.
 
-# LB
-
-(to do)
-
 # Unicast Routing Update in Entry of Routing Table
 
-(to do)
+(to be continued...)
 
 ------------------
-# EGP then BGP
+# EGP ((( BGP )))
 
 (omit...)
 
