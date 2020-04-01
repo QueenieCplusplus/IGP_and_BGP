@@ -63,6 +63,18 @@ the features of Routes:
 
 * Total Delay
 
+IGRP config for R1:
+
+    interface Ethernet0
+     ip addr 192.168.1.0 255.255.255.0
+     
+    interface Serail0
+     ip addr 192.168.3.2 255.255.255.0
+     
+    router igrp
+      network 192.168.1.0
+      network 192.168.3.0
+
 # Display in Header of IP datagram
 
 (to do)
