@@ -21,9 +21,15 @@ the features of Routes:
 
 # Advertisable Addr Type
 
+(to do)
+
 # LB
 
+(to do)
+
 # Unicast Routing Update in Entry of Routing Table
+
+(to do)
 
 ------------------
 # EGP then BGP
