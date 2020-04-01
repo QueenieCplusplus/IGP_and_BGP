@@ -123,7 +123,15 @@ The Routing Table of R1:
 
 # Display in Header of IP datagram
 
-(to do)
+The IGRP info is encapsulated in the IP datagrams, the specific info includes header & route entries. This datagrams are destined fir the Local Braodcast Addr 255.255.255.255.
+
+Format is like this
+
+|version|Opcode|Edition| AS|
+|-------|------|-------|---|
+|       |      |       |   |   
+|       |      |       |   |   
+|       |      |       |   |   
 
 # Advertisable Addr Type
 
