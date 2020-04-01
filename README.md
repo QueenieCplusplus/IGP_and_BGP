@@ -90,16 +90,18 @@ IGRP config for R1:
  IGRP config for R3:
  
      interface S0
-       ip addr 
+       ip addr 192.168.4.1 255.255.255.0
      
      interface S1
-       ip addr
+       ip addr 192.168.3.1 255.255.255.0
      
      interface TO0
-       ip addr
+       ip addr 192.168.5.1 255.255.255.0
      
      routing igrp 1
-       network
+       network 192.168.3.0
+       network 192.168.4.0
+       network 192.168.5.0
 
 # Display in Header of IP datagram
 
