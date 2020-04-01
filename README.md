@@ -3,9 +3,9 @@
 (to be continued...)
 
 ------------------
-# EGP then BGP
+# IGRP then EIGRP
 
 
 ------------------
-# IGRP then EIGRP
+# EGP then BGP
 
