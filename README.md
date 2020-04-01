@@ -129,7 +129,7 @@ Format is like this
 
 
               +------------+---------+---------+------+
-              |version     |Opcode   |Edition  | AS   |
+              |  version   |  Opcode | Edition |  AS  |
               +------------+---------+---------+------+
               |            |        Network           |
               |            +----------------+---------+
