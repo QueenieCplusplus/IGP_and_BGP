@@ -10,7 +10,7 @@ IGRP, Interior Gateway Routing Protocol, like RIP, it is a classful, distance_ve
 It is propietary of Cisco Router only.
 
 
- 
+                     192.168.1.0/24            192.168.2.0/24
                        Segment1                  Segment2
 
                            |                        |
@@ -21,7 +21,7 @@ It is propietary of Cisco Router only.
                            R1                       R2
                             \                      /
                              s0                   s1
-                              \                  /
+           192.168.3.0/24     \                  /     192.168.4.0/24 
              Segment3          \                /        Segment4          
                                 \              /
                                  \            /
@@ -36,6 +36,7 @@ It is propietary of Cisco Router only.
                                         |
                                                 
                                     Segment5 
+                                  192.168.5.0/24 
                                     
                                         |
                                         | 
@@ -50,6 +51,7 @@ It is propietary of Cisco Router only.
                                         |
                                         
                                      Segment6
+                                   192.168.6.0/24 
 
 
 
