@@ -127,23 +127,16 @@ The IGRP info is encapsulated in the IP datagrams, the specific info includes he
 
 Format is like this
 
-|version|Opcode|Edition| AS|
-|-------:|:------:|-------:|:---|
-|    Subnet    |  Network  |   
-|Exterior Network| Checksum|   
-|  Route Entry  for Subnet |   
-| Route Entry  for Network |
-|Route Entry for Exterior Network|
 
-+---------------------------------------+
++------------+---------+---------+------+
 |version     |Opcode   |Edition  | AS   |
-+---------------------------------------+
-|             |        Network          |
-+             +-------------------------+
-|   Subnet    |                |        |
-|             |Exterior Network|checksum|
-|             |                |        |
-+-------------+-------+--------+--------+
++------------+---------+---------+------+
+|            |        Network           |
+|            +----------------+---------+
+|   Subnet   |                |         |
+|            |Exterior Network|checksum |
+|            |                |         |
++------------+----------------+---------+
 |        Route Entry  for Subnet        |
 +---------------------------------------+
 |        Route Entry  for Network       |
