@@ -130,8 +130,10 @@ Format is like this
 |version|Opcode|Edition| AS|
 |-------|------|-------|---|
 |    Subnet    |  Network  |   
-|       |      |       |   |   
-|       |      |       |   |   
+|Exterior Network| Checksum|   
+|  Route Entry  for Subnet |   
+| Route Entry  for Network |
+|Route Entry for Exterior Network|
 
 # Advertisable Addr Type
 
