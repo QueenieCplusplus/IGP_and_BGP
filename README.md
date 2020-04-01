@@ -179,7 +179,7 @@ The IGRP routers can not advertise the default addr 0.0.0.0, and individual host
 
 # Exterior Network
 
-Typically provides access to Internet, or another Network.
+Typically provides access to Internet, or another Network.The traffic sent to unknown destinations can be forwarded thru the exterior network.
 
 # LB
 
