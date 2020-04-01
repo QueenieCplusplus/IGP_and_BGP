@@ -102,6 +102,17 @@ IGRP config for R1:
        network 192.168.3.0
        network 192.168.4.0
        network 192.168.5.0
+       
+The Routing Table of R1:
+
+     R1$show ip route
+     
+     C 192.168.1.0/24 is directly connected. E0
+     C 192.168.3.0/24 is directly connected. S0
+     I
+     I
+     I
+     I
 
 # Display in Header of IP datagram
 
