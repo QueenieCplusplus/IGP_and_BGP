@@ -41,7 +41,7 @@ It is propietary of Cisco Router only.
                                         |
                                         | 
                                         |  
-                                       to0
+                                       to0 (token ring)
                                         |
                                         R4
                                         |
@@ -66,7 +66,7 @@ the features of Routes:
 IGRP config for R1:
 
     interface Ethernet0
-     ip addr 192.168.1.0 255.255.255.0
+     ip addr 192.168.1.1 255.255.255.0
      
     interface Serail0
      ip addr 192.168.3.2 255.255.255.0
@@ -74,6 +74,32 @@ IGRP config for R1:
     router igrp
       network 192.168.1.0
       network 192.168.3.0
+      
+ IGRP config for R2:
+ 
+     interface Ethernet0
+     ip addr 192.168.2.1 255.255.255.0
+     
+    interface Serail1
+     ip addr 192.168.4.2 255.255.255.0
+     
+    router igrp
+      network 192.168.2.0
+      network 192.168.4.0
+      
+ IGRP config for R3:
+ 
+     interface S0
+       ip addr 
+     
+     interface S1
+       ip addr
+     
+     interface TO0
+       ip addr
+     
+     routing igrp 1
+       network
 
 # Display in Header of IP datagram
 
