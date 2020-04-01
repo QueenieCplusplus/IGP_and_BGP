@@ -69,7 +69,7 @@ IGRP config for R1:
      ip addr 192.168.1.1 255.255.255.0
      
     interface Serail0
-     ip addr 192.168.3.2 255.255.255.0
+     ip addr 192.168.3."2" 255.255.255.0
      
     router igrp
       network 192.168.1.0
@@ -109,7 +109,7 @@ The Routing Table of R1:
      
      C 192.168.1.0/24 is directly connected. E0
      C 192.168.3.0/24 is directly connected. S0
-     I 192.168.2.0/24 [] via 192.168.3.1, S0
+     I 192.168.2.0/24 [] via 192.168.3."1", S0
      I 192.168.4.0/24 []
      I 192.168.5.0/24 []
      I 192.168.6.0/24 []
