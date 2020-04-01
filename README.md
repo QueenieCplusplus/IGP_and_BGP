@@ -20,12 +20,12 @@ It is propietary of Cisco Router only.
                            |                        |
                            R1                       R2
                             \                      /
-                             s0                   s1
+                           * s0 *                 s1
            192.168.3.0/24     \                  /     192.168.4.0/24 
              Segment3          \                /        Segment4          
                                 \              /
                                  \            /
-                                  s1         s0
+                                * s1 *       s0
                                     \       /
                                         R3
                                        
@@ -110,9 +110,9 @@ The Routing Table of R1:
      C 192.168.1.0/24 is directly connected. E0
      C 192.168.3.0/24 is directly connected. S0
      I 192.168.2.0/24 [] via 192.168.3."1", S0
-     I 192.168.4.0/24 []
-     I 192.168.5.0/24 []
-     I 192.168.6.0/24 []
+     I 192.168.4.0/24 [] via 192.168.3."1", S0
+     I 192.168.5.0/24 [] via 192.168.3."1", S0
+     I 192.168.6.0/24 [] via 192.168.3."1", S0
 
 # Display in Header of IP datagram
 
