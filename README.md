@@ -175,7 +175,7 @@ classful network addr
 
 subnets of classful network addr || more interfaces whose IP addr belongs to these classful network addr.
 
-
+The IGRP routers can not advertise the default addr 0.0.0.0, and individual host addr (for instance, 192.168.1.1/32).
 
 # LB
 
