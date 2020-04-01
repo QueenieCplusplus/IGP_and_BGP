@@ -140,3 +140,5 @@ The Routing Table of R1:
 ------------------
 # EGP then BGP
 
+(omit...)
+
