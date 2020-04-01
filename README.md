@@ -128,7 +128,7 @@ The IGRP info is encapsulated in the IP datagrams, the specific info includes he
 Format is like this
 
 |version|Opcode|Edition| AS|
-|-------|------|-------|---|
+|-------:|:------:|-------:|:---|
 |    Subnet    |  Network  |   
 |Exterior Network| Checksum|   
 |  Route Entry  for Subnet |   
