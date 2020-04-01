@@ -15,6 +15,16 @@ the features of Routes:
 
 * Total Delay
 
+# Display in Header of IP datagram
+
+(to do)
+
+# Advertisable Addr Type
+
+# LB
+
+# Unicast Routing Update in Entry of Routing Table
+
 ------------------
 # EGP then BGP
 
