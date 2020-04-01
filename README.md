@@ -169,7 +169,13 @@ IGRP Route Entry Format is like this
 
 # Advertisable Addr Type
 
-(to do)
+A router can advertise 2 types of network prefixes via GRIP:
+
+classful network addr
+
+subnets of classful network addr || more interfaces whose IP addr belongs to these classful network addr.
+
+
 
 # LB
 
