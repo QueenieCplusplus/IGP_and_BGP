@@ -177,7 +177,7 @@ subnets of classful network addr || more interfaces whose IP addr belongs to the
 
 The IGRP routers can not advertise the default addr 0.0.0.0, and individual host addr (for instance, 192.168.1.1/32).
 
-# Exterior Network
+# Exterior Network where Datagram being forwarded thru
 
 Typically provides access to Internet, or another Network.The traffic sent to unknown destinations can be forwarded thru the exterior network.
 
