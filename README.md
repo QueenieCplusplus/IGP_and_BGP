@@ -181,6 +181,8 @@ The IGRP routers can not advertise the default addr 0.0.0.0, and individual host
 
 Typically provides access to Internet, or another Network.The traffic sent to unknown destinations can be forwarded thru the exterior network.
 
+The Router that advertises exterior networks can be used as the Default Router by the routers that accepts its routing updates.
+
 # LB
 
 (to do)
