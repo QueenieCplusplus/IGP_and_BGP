@@ -113,6 +113,13 @@ The Routing Table of R1:
      I 192.168.4.0/24 [] via 192.168.3."1", S0
      I 192.168.5.0/24 [] via 192.168.3."1", S0
      I 192.168.6.0/24 [] via 192.168.3."1", S0
+     
+# Debug
+
+     R3$ debug ip igrp transactions
+     > IGRP protocol debugging is on
+     
+     ...
 
 # Display in Header of IP datagram
 
