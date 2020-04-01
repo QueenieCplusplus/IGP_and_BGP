@@ -167,7 +167,7 @@ IGRP Route Entry Format is like this
  
  - [x] Exterior Network Route Entry,
 
-# Advertisable Addr Type
+# Advertisement
 
 A router can advertise 2 types of network prefixes via GRIP:
 
@@ -176,6 +176,10 @@ classful network addr
 subnets of classful network addr || more interfaces whose IP addr belongs to these classful network addr.
 
 The IGRP routers can not advertise the default addr 0.0.0.0, and individual host addr (for instance, 192.168.1.1/32).
+
+# Exterior Network
+
+(to do)
 
 # LB
 
