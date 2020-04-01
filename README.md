@@ -158,6 +158,14 @@ IGRP Route Entry Format is like this
               +------------+--------------------------+
  
  Destination == Advertised Network Prefix
+ 
+ # Network Prefix Interpretation 
+ 
+ - [x] Subnet Route Entry
+ 
+ - [x] Network Route Entr
+ 
+ - [x] Exterior Network Route Entry,
 
 # Advertisable Addr Type
 
