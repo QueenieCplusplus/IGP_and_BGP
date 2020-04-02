@@ -190,5 +190,9 @@ The Router that advertises exterior networks can be used as the Default Router b
 ------------------
 # EGP ((( BGP )))
 
-(omit...)
+(to be continued...)
+
+# Multicast
+
+(to be continued...)
 
