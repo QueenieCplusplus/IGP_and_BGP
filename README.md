@@ -190,7 +190,7 @@ The Router that advertises exterior networks can be used as the Default Router b
 ------------------
 # EGP ((( BGP )))
 
-(to be continued...)
+https://github.com/QueenieCplusplus/BGP
 
 # Multicast
 
