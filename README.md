@@ -192,7 +192,13 @@ The Router that advertises exterior networks can be used as the Default Router b
 
 https://github.com/QueenieCplusplus/BGP
 
-# Multicast
+# IP Multicast Protocols
+
+* IGMP
+
+* CGMP, Cisco Group Mgmt Protocol
+
+* PIM, Protocol Independent Multicast
 
 (to be continued...)
 
